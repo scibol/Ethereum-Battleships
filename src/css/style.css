@@ -1,0 +1,72 @@
+#game-container {
+    width:50%;
+    margin: 0 auto;
+}
+
+table
+{
+  min-width: 100%;
+}
+
+#disabled-table {
+  background-color: lightgrey;
+}
+
+td {
+    width: 9%;
+    height: 9%;
+    position: relative;
+}
+
+td:after {
+    content: '';
+    display: block;
+    margin-top: 50%;
+}
+
+.turn {
+  color: green;
+  font-weight: bold;
+}
+
+.player-turn {
+  color: green;
+}
+
+.crossed
+{
+   background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), red, transparent calc(50% + 1px)),
+                     linear-gradient(to bottom left, transparent calc(50% - 1px), red, transparent calc(50% + 1px));
+
+}
+
+.panel-body {
+    width:100%;
+    height: 100%
+}
+
+#fleet-select li {
+    display: inline;
+}
+
+#game li {
+    display: inline;
+}
+
+.form-style {
+    margin: 0 auto;
+    }
+
+.green {
+    background-color: green;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.fixed-panel {
+  min-height: 160px;
+  max-height: 160px;
+  overflow-y: scroll;
+}
